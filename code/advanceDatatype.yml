@@ -1,0 +1,64 @@
+
+student : !!seq         # sequence data type
+  - marks
+  - name
+  - roll_no
+
+
+# some of the keys of the seq will be empty
+# calles sparse seq
+
+sparse seq :
+  - hey
+  - how
+  -
+  - Null
+  - yup
+
+# Nested Sequence
+Animal Species : 
+  -
+    - Tiger
+    - Lion
+    - Jaguar
+  -
+    - crow
+    - parrot
+    - maina
+
+# key : value pairs are called maps
+# !!map
+
+# Nested mapping : map within map
+Name : Gotam Gorabh
+role : 
+  age : 23
+  job : software developers
+
+
+# pairs : keys may have duplicate values
+# !!pairs
+pair example : !!pairs
+  - job : student
+  - job : techer
+# this will be an array of hashtables
+
+# set will allow to have unique values
+# !!set
+
+names : !!set
+  ? gautam
+  ? suman
+  ? himanshu
+  ? anshu
+  ? roshan
+
+# dictionary !!omap
+People : !!omap
+  - student1 :
+      name : Gautam
+      roll : 173
+  - student2 :
+      name : Aman
+      roll : 175
+
