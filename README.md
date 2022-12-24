@@ -9,9 +9,16 @@ This is my learning journey of YAML in the journey of DevOps learning. I documen
 
 ## Introduction
 YAML stands for **yaml ain't markup language**. It is data format used to exchange data. Similar to **XML** and **JSON**. In YAML, we can store only data and not commands.<br>
-**Usage :- **<br>
-- [configuration files]
-- [logs]
+Usage :<br>
+- configuration files
+- logs, caches etc.<br>
+
+Benefits :<br>
+- simple & easy to read.
+- It has a strict syntax.
+- Easily convertable to JASON, XML.
+- most languages use it.
+- more powerfull when representing complex data.
 
 ## Data Serialisation
 
