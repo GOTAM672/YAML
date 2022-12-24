@@ -1,0 +1,21 @@
+# key-value pair
+"Name" : "My name is Gotam Gorabh"   # key : value 
+173 : "My college roll number"
+
+---
+
+# list
+- apple
+- mango
+- banana
+
+---        # seprate teo document
+
+  # block
+cities:
+  - New Delhi
+  - Patna
+  - Kochi
+
+...        # end of document
+
