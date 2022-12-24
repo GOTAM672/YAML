@@ -9,13 +9,18 @@
 - mango
 - banana
 
----        # seprate teo document
+---        # seprate two document
 
   # block
 cities:
   - New Delhi
   - Patna
   - Kochi
+
+# Or
+
+cities: [New Delhi, Patna, Kochi]
+
 
 ...        # end of document
 

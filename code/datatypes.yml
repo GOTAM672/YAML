@@ -1,0 +1,64 @@
+
+# string variables
+
+Name : Gotam Gorabh
+Collage : "IIIT"
+Job : 'SDE'
+
+# Multiline
+Bio : |
+I am software engineer .
+I live in india.
+
+# Singleline
+Message : >
+This wiil
+all be
+in single line.
+
+
+integer : 173
+float : 98.99
+Bool: false # n, N, False, FALSE, No,
+
+# specify the type
+
+# Integers
+Zero : !!int 0
+PositiveNumber : !!int 42
+NegativeNumber : !!int -43
+BinaryNumber : !!int 0b11001
+OctalNumber : !!int 06457
+Hexa : !!int 0x45
+CommaValue : !!int +540_000 # 540,000
+
+# Floating
+Simple : !!float 74.59
+infinite : !!float .inf
+Not a Num : .nan
+
+# Exponential
+Number : 6.023E56
+
+# Boolean
+On : !!bool True
+
+# String
+Name : !!str Gotam Gorabh
+
+# null
+surname : !!null Null
+
+
+# date and time
+
+
+
+
+
+
+
+
+
+
+
