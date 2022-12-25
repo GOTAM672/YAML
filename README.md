@@ -30,4 +30,7 @@ Some of Data Serialisation languages are - YAML, JASON and XML.
 ## Tools
 
 [YAMLlint](https://www.yamllint.com/) - Tools to check weither yaml code is valid or not.<br>
-[yaml to jason converter](https://onlineyamltools.com/convert-yaml-to-json) - To generate JASON code from YAML code.
+[yaml to jason converter](https://onlineyamltools.com/convert-yaml-to-json) - To generate JASON code from YAML code.<br>
+[datree](https://www.datree.io/) - To validate yaml and kubernetes configuration files.<br>
+[monokle](https://monokle.io/) - Helps in managing kubernetes manifest files.<br>
+[LENS](https://k8slens.dev/) - The kubernetes IDE

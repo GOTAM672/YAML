@@ -6,7 +6,7 @@ student : !!seq         # sequence data type
 
 
 # some of the keys of the seq will be empty
-# calles sparse seq
+# called sparse seq
 
 sparse seq :
   - hey
@@ -63,4 +63,27 @@ People : !!omap
       roll : 175
 
 # Reusing some properties using anchors
+
+likings : &likes             
+  fav fruit : mango
+  dislikes : grapes
+
+person1 :
+  name : x 
+  << : *likes
+
+person2 : 
+  name : y
+  << : *likes
+
+person3 : 
+  name : z
+  << : *likes
+  dislikes : papaya    # overriding dislikes
+
+person4 :
+  name : a
+  << : *likes
+  fav fruit : lichi    # overriding fav fruit
+
 
