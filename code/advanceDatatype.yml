@@ -62,3 +62,5 @@ People : !!omap
       name : Aman
       roll : 175
 
+# Reusing some properties using anchors
+
